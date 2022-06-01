@@ -2,7 +2,7 @@
   "name": "cardesign",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fratiav.github.io",
+  "homepage": "https://fratiav.github.io/CarDesign",
   "dependencies": {
     "@auth0/auth0-react": "^1.10.1",
     "@react-three/drei": "^9.11.3",
