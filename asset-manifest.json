@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CarDesign/static/css/main.1f0b8273.css",
-    "main.js": "/CarDesign/static/js/main.35ba6ed5.js",
+    "main.js": "/CarDesign/static/js/main.827ec137.js",
     "static/media/logo512x512.png": "/CarDesign/static/media/logo512x512.d2d73504bdd2a563058c.png",
     "static/media/logo256x256.png": "/CarDesign/static/media/logo256x256.c7f03ab0bb3c85a0b1fc.png",
     "index.html": "/CarDesign/index.html",
     "main.1f0b8273.css.map": "/CarDesign/static/css/main.1f0b8273.css.map",
-    "main.35ba6ed5.js.map": "/CarDesign/static/js/main.35ba6ed5.js.map"
+    "main.827ec137.js.map": "/CarDesign/static/js/main.827ec137.js.map"
   },
   "entrypoints": [
     "static/css/main.1f0b8273.css",
-    "static/js/main.35ba6ed5.js"
+    "static/js/main.827ec137.js"
   ]
 }
