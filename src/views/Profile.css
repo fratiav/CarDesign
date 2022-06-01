@@ -1,0 +1,9 @@
+#profile{
+    margin: 0;
+    width: 100vmax;
+    height: 100vmin;
+}
+
+#infoProfile{
+    display: flex;
+}

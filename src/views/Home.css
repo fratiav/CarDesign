@@ -1,0 +1,42 @@
+#home{
+    margin: 0;
+    width: 100vw;
+    height: 90vh;
+}
+
+/* Esconde scrollbar pero sin deshabilitarlo */
+::-webkit-scrollbar {display: none;}
+
+#logoHome{
+    margin: 0 auto;
+    padding: 50px;
+    width: 30%;
+    display: block;
+}
+
+#tituloHome{
+    text-align: center;
+    font-size: 10vmin;
+    color: rgba(187,0,57,255);
+}
+
+#info{
+    margin: 3vmax;
+    padding: 2vmax;
+    background-color: rgba(187,0,57,255);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #logoHome {
+      animation: App-logo-spin infinite 4s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}

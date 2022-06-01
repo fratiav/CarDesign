@@ -1,0 +1,14 @@
+#footer{
+    width: 100vmax;
+    height: 5vmin;
+    background-color: rgb(44, 51, 71);
+    position: unset;
+    bottom: 0;
+}
+
+#footer h3{
+    width: 100vw;
+    height: 4vmin;
+    color:rgba(187,0,57,255);
+    text-align: center;
+}

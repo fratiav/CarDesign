@@ -1,0 +1,58 @@
+#loadingPage{
+    margin:0 auto;
+    padding: 0;
+
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    border: 10vh solid rgb(44, 51, 71);
+}
+
+/* Esconde scrollbar pero sin deshabilitarlo */
+::-webkit-scrollbar {display: none;}
+
+#logoLoading{
+  margin: 0 auto;
+  padding: 50px;
+  width: 30%;
+  display: block;
+}
+
+#tituloLoading{
+    text-align: center;
+    font-size: 10vmin;
+    color: rgba(187,0,57,255);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #logoLoading {
+      animation: App-logo-spin infinite 4s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #tituloLoading {
+      animation: App-title-move infinite 1s linear;
+    }
+}
+
+@keyframes App-title-move {
+    from {
+      transform: translateY(5px);
+    }
+    50%{
+      transform: translateY(-5px);
+    }
+    to {
+      transform: translateY(5px);
+    }
+}
